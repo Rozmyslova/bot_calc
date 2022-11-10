@@ -57,7 +57,6 @@ def callback_func(query):
             value = str(eval(value))
         except:
             value = 'Ошибка'
-
     else:
         value += data
 
